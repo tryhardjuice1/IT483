@@ -1,0 +1,59 @@
+header {
+	font-family: "Verdana", sans-serif;
+}
+
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+footer {
+	font-family: "Verdana", sans-serif;
+}
+
+img {
+	float: left;
+}
+
+#welcome {
+	font-size: 35px;
+}
+
+#welcome::first-letter {
+	font-size: 200%;
+}
+
+#storeTitle {
+	font-size: 40px;
+	font-style: italic;
+	color: orange;
+	text-shadow: 2px 2px #000000;
+}
+
+#goblinTitle {
+	font-size: 30px;
+	text-indent: 90px;
+}
+
+#productTitle {
+	font-size: 30px;
+}
+
+#guarantee {
+	font-size: 27px;
+}
+
+a:link {
+	color:orange;
+}
+
+a:visited {
+	color:orange;
+}
+
+a:hover {
+	color:green;
+}
+
+li {
+	margin: 0 0 3px 0;
+}
