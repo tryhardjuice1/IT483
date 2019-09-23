@@ -1,0 +1,94 @@
+body {
+	background: url("bats.gif");
+	background-repeat: repeat;
+}
+
+main {
+	font-family: "Verdana", sans-serif;
+	width: 800px;
+	margin: auto;
+	background: white;
+	border-style: solid black;
+	box-shadow: 5px 5px 15px 15px #000000;
+}
+header {
+	font-family: "Verdana", sans-serif;
+	border-style: solid;
+	background-image: linear-gradient(45deg, white, orange, black);
+}
+
+header img {
+	float: left;
+	margin-top: 30px;
+}
+
+#storeTitle {
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+#goblinTitle {
+	font-size: 20px;
+	margin-left: 90px;
+}
+
+.links {
+	width: 160px;
+	float: left;
+}
+
+a:link {
+	color:orange;
+}
+
+a:visited {
+	color:orange;
+}
+
+a:hover {
+	color:green;
+}
+
+.column {
+	width: 640px;
+	float: right;
+}
+
+#welcome {
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+#welcome::first-letter {
+	font-size: 200%;
+}
+
+#productTitle {
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+.column img {
+	margin-left: 30px;
+}
+
+.column a {
+	margin-left: 30px;
+}
+
+#guarantee {
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+footer {
+	clear: both;
+	font-family: "Verdana", sans-serif;
+	border-style: solid;
+	background-image: linear-gradient(45deg, black, orange, white);
+}
