@@ -1,0 +1,200 @@
+html {
+    background-image: url("../images/mrtaco.jpg");
+    background-repeat: repeat;
+}
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 1000px;
+    background: white;
+    margin: 0 auto;
+    border: 4px solid black;
+    box-shadow: 0px 13px 20px 10px black
+}
+
+header { 
+    font-family: Impact, Charcoal, sans-serif;
+    background-image: -webkit-linear-gradient(45deg, yellow 0%, red 75%, green 100%);
+    background-image: -moz-linear-gradient(45deg, yellow 0%, red 75%, green 100%);
+    background-image: -o-linear-gradient(45deg, yellow 0%, red 75%, green 100%);
+    background-image: linear-gradient(45deg, yellow 0%, red 75%, green 100%);
+    border-bottom: 2px solid black; 
+    padding-top: 15px;
+} 
+
+footer { 
+	border-top: 2px solid black;
+    padding-bottom: 1px;
+    background-image: -webkit-linear-gradient(45deg, green 0%, red 25%, yellow 100%);
+    background-image: -moz-linear-gradient(45deg, green 0%, red 25%, yellow 100%);
+    background-image: -o-linear-gradient(45deg, green 0%, red 25%, yellow 100%);
+    background-image: linear-gradient(45deg, green 0%, red 25%, yellow 100%);
+    font-size: 90%;
+	text-align: center;
+    margin-bottom: -3px;
+    margin-top: -3px;
+    clear: both;
+} 
+
+header h1 {
+    font-size: 250%;
+    text-align: center;
+    background-color: green;
+}
+
+header h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+/* top nav bar*/
+.topnav ul {
+    max-width: 100%;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.topnav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.topnav li {
+    max-width: 25%;
+    float: left;
+    padding: 10px 89px 10px 88px;
+    border-left: solid 2px white;
+}
+
+.topnav li:first-child { 
+    border: 0px; 
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding 14px 16px;
+    text-decoration: none;
+    font-size: 125%;
+}
+
+.topnav a.current {
+    color: green;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Left column */
+.columnleft {
+    float: left;
+    width: 15%;
+}
+
+.columnleft h3 {
+    width: 100%
+}
+
+.columnleft ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.columnleft li {
+    font-size: 80%;
+    padding-bottom: 10%;
+}
+
+/* Middle column */
+.columnmiddle {
+    display: inline-block;
+    width: 60%;
+}
+
+.columnmiddle h1 {
+    text-align: center;
+}
+
+/* Table */
+table {
+    width 100%;
+    padding-left: 8%;
+    border-collapse: collapse;
+}
+
+table, th, tr.break td.groups {
+    border: 1px solid black
+}
+
+tr.break>td {
+    padding-top: 3%;
+}
+
+td {
+    width: 50%
+}
+
+tr.headers th {
+    text-align: left;
+    font-weight: bold;
+    color: grey;
+}
+
+td.groups {
+    font-weight: bold;
+}
+
+/* Right column r*/
+.columnright {
+    float: right;
+    width: 25%;
+}
+
+.columnright h3 {
+    padding-left: 20%;
+}
+
+/* Side nav bar*/
+.sidenav ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 20%;
+}
+
+.sidenav li {
+    width: 75%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    background: green;
+    
+}
+
+.sidenav li:nth-child(2n) {
+    background: red;
+}
+
+.sidenav a {
+    display: block;
+    padding: 1% 1% 1% 1%;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+.sidenav a:hover {
+    color: yellow;
+}
+
+.sidenav a:visited {
+    color: grey;
+}
