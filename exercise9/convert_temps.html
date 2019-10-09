@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Convert from Fahrenheit to Centigrade</title>
+    <script>
+        var farenheit = prompt("Enter Farenheit temperature");
+        farenheit = parseFloat(farenheit);
+        while (farenheit != 999) {
+            
+            if ((isNaN(farenheit))) {
+                alert("Entry was not a number");
+            }
+            else if (farenheit <= -100 || farenheit >= 212) {
+                alert("You entered " + farenheit + "\nEntry must range from -100 to +212")
+            }
+            else {
+                var celsius = (farenheit - 32) * (5/9);
+                alert("Farenheit Temperature is " + farenheit +"\nCelsius Temperature is " + celsius);
+            }
+            var farenheit = prompt("Enter Farenheit temperature");
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <h1>Thanks for using the temperature converter</h1>
+    </main>
+</body>
+</html>
