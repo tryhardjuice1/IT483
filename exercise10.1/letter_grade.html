@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title>Show letter grade</title>
+	<script>
+        var numberGrade = prompt("Enter number grade from 0 through 100\n Or enter 999 to end entries");
+        numberGrade = parseFloat(numberGrade);
+        
+        while (numberGrade != 999) {
+            if (isNaN(numberGrade)) {
+                numberGrade = prompt("Enter number grade from 0 through 100\n Or enter 999 to end entries");
+            }
+            else if (numberGrade > 100 || numberGrade < 0){
+                numberGrade = prompt("Enter number grade from 0 through 100\n Or enter 999 to end entries");
+            }
+            else {
+                if (numberGrade >= 88 && numberGrade <= 100) {
+                    alert("Number grade = " + numberGrade + "\n Letter grade = A");
+                }
+                else if (numberGrade >= 80 && numberGrade <= 87) {
+                    alert("Number grade = " + numberGrade + "\n Letter grade = B");
+                }
+                else if (numberGrade >= 68 && numberGrade <= 79) {
+                    alert("Number grade = " + numberGrade + "\n Letter grade = C");
+                }
+
+                else if (numberGrade >= 60 && numberGrade <= 67) {
+                    alert("Number grade = " + numberGrade + "\n Letter grade = D");
+                }
+                else if (numberGrade <= 60) {
+                    alert("Number grade = " + numberGrade + "\n Letter grade = F");
+                }
+            }
+            numberGrade = prompt("Enter number grade from 0 through 100\n Or enter 999 to end entries");
+            numberGrade = parseFloat(numberGrade);
+        }
+	</script>
+</head>
+<body>
+	<main>
+    	<h1>This page is displayed after the JavaScript is executed</h1>
+	</main>
+</body>
+</html>
