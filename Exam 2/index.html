@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="cafe.css">
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="cafe.js"></script>
+	<title>Tuxedo Cat Cafe</title>
+</head>
+
+<header>
+    <img src="images/logo.png">
+</header>
+
+<body>
+    <div id="menu">
+        <h2>Menu</h2>
+        <p>Click an item to add it to your order</p>
+        
+        <ul>
+            <li>
+                <img src="images/espresso.jpg" id="espresso_info">
+                <img src="images/espresso_info.jpg" id="espresso">
+            </li>
+            <li>
+                <img src="images/latte.jpg" id="latte_info">
+                <img src="images/latte_info.jpg" id="latte">
+            </li>
+            <li>
+                <img src="images/cappuccino.jpg" id="cappuccino_info">
+                <img src="images/cappuccino_info.jpg" id="cappuccino">
+            </li>
+            <li>
+                <img src="images/coffee.jpg" id="coffee_info">
+                <img src="images/coffee_info.jpg" id="coffee">
+            </li>
+            <li>
+                <img src="images/biscotti.jpg" id="biscotti_info">
+                <img src="images/biscotti_info.jpg" id="biscotti">
+            </li>
+            <li>
+                <img src="images/scone.jpg" id="scone_info">
+                <img src="images/scone_info.jpg" id="scone">
+            </li> 
+        </ul>
+        
+        <h2>Your Order</h2>
+        <textarea id="text" rows="6"></textarea>
+    </div>
+    
+    <div id="total">
+        <h3>Total: </h3>
+    </div>
+    
+    <div id="buttons">
+        <button>Place Order</button>
+        <button>Cancel Order</button>
+    </div>
+    
+</body>
+</html>
